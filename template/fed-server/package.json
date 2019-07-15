@@ -1,0 +1,22 @@
+{
+  "name": "{{ name }}",
+  "version": "0.1.0",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run server",
+    "server": "pm2 restart pm2.json"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "nornj": "^0.4.2",
+    "path": "^0.12.7",
+    "pm2": "^2.10.2"
+  },
+  "devDependencies": {}
+}
